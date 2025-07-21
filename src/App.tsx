@@ -189,7 +189,6 @@ export default function App() {
       <script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710342257752153"
-        crossorigin="anonymous"
       ></script>
       <div className="col-span-2">
         <h1 className="text-2xl font-bold">Calculadora de Impressão 3D</h1>
