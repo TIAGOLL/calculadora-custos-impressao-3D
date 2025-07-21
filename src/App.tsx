@@ -185,8 +185,8 @@ export default function App() {
     });
   }
   return (
-    <div className="w-full mx-auto p-6 grid-cols-3 grid space-x-4 md:max-w-10/12">
-      <div className="col-span-2">
+    <div className="w-full mx-auto p-6 grid-cols-8 grid space-x-4 md:max-w-10/12">
+      <div className="col-span-4">
         <h1 className="text-2xl font-bold">Calculadora de Impressão 3D</h1>
         <form
           onSubmit={handleSubmit(calcular)}
@@ -539,7 +539,7 @@ export default function App() {
         </form>
       </div>
       {resultado && (
-        <Card className="w-full h-auto overflow-y-auto">
+        <Card className="w-full h-auto overflow-y-auto col-span-2">
           <CardTitle>Resultados</CardTitle>
           <CardContent className="p-4 font-bold text-green-700 grid grid-cols-2 space-x-4 space-y-4">
             <div className="text-center p-4 bg-muted rounded-lg">
@@ -635,6 +635,21 @@ export default function App() {
           </CardContent>
         </Card>
       )}
+
+      <div>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710342257752153"
+        ></script>
+        <ins
+          class="adsbygoogle"
+          data-ad-client="ca-pub-3710342257752153"
+          data-ad-slot="5190820686"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
     </div>
   );
 }
