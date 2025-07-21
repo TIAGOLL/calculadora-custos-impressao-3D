@@ -636,19 +636,7 @@ export default function App() {
         </Card>
       )}
 
-      <div>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710342257752153"
-        ></script>
-        <ins
-          data-ad-client="ca-pub-3710342257752153"
-          data-ad-slot="5190820686"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
+      <div></div>
     </div>
   );
 }
