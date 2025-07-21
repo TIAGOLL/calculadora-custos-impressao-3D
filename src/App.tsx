@@ -13,7 +13,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import GoogleAdsense from "./components/GoogleAdsense";
+import { GoogleAdsense } from "./components/GoogleAdsense";
 
 type Resultado = {
   nome: string;
