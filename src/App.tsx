@@ -642,7 +642,6 @@ export default function App() {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710342257752153"
         ></script>
         <ins
-          class="adsbygoogle"
           data-ad-client="ca-pub-3710342257752153"
           data-ad-slot="5190820686"
           data-ad-format="auto"
