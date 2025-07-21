@@ -186,10 +186,6 @@ export default function App() {
   }
   return (
     <div className="w-full mx-auto p-6 grid-cols-3 grid space-x-4 md:max-w-10/12">
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710342257752153"
-      ></script>
       <div className="col-span-2">
         <h1 className="text-2xl font-bold">Calculadora de Impressão 3D</h1>
         <form
