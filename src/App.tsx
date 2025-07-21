@@ -637,7 +637,7 @@ export default function App() {
         </Card>
       )}
 
-      <div className="bg-black">
+      <div>
         <GoogleAdsense
           adClient="ca-pub-3710342257752153"
           adSlot="5190820686"
