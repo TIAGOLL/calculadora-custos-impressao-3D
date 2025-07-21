@@ -203,7 +203,7 @@ export default function App() {
                     type="button"
                     variant="secondary"
                     onClick={() => {
-                      if (confirm()) {
+                      if (confirm("Deseja limpar todos os campos?")) {
                         reset();
                         setResultado(null);
                       }
@@ -637,7 +637,7 @@ export default function App() {
         </Card>
       )}
 
-      <div>
+      <div className="bg-black">
         <GoogleAdsense
           adClient="ca-pub-3710342257752153"
           adSlot="5190820686"
