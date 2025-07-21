@@ -13,6 +13,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import GoogleAdsense from "./components/GoogleAdsense";
 
 type Resultado = {
   nome: string;
@@ -636,7 +637,13 @@ export default function App() {
         </Card>
       )}
 
-      <div></div>
+      <div>
+        <GoogleAdsense
+          adClient="ca-pub-3710342257752153"
+          adSlot="5190820686"
+          adFormat="auto"
+        />
+      </div>
     </div>
   );
 }
